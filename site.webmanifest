@@ -1,0 +1,16 @@
+{
+  "name": "Warkfin Tech",
+  "short_name": "Warkfin",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#0057D9",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://warkfin003-source.github.io/Warkfin-Tech/sitemap.xml

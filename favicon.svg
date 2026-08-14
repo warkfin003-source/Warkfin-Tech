@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Warkfin Tech">
+  <rect width="64" height="64" rx="14" fill="#ffffff"/>
+  <path d="M8 15h10l6 25 7-19h7l7 19 6-25h10L49 53H40l-5-17-5 17h-9z" fill="#0057d9"/>
+  <path d="M46 48c5-4 8-10 8-17" fill="none" stroke="#ff7a00" stroke-width="5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,71 @@
+@media (max-width: 768px) {
+            /* Reduce heading and section spacing for phones and small tablets. */
+            .hero h1 { font-size: 2.2rem; }
+            .section-title h2 { font-size: 1.8rem; }
+            .timeline::before { left: 20px; }
+            .timeline-content {
+                width: calc(100% - 60px);
+                margin-left: 60px !important;
+            }
+            .timeline-dot { left: 20px; }
+            .counter-section {
+                margin-top: 0;
+                border-radius: 0;
+            }
+            .hero { min-height: auto; padding: 125px 0 70px; }
+            .hero-image { margin: 24px auto 0; max-width: 420px; padding: 0; }
+            .hero-image img { max-height: 430px; }
+            .founder-biography p { text-align: left; }
+            .hero-btns .btn-primary-custom, .hero-btns .btn-outline-custom { padding: 11px 20px; }
+        }
+
+
+@media (max-width: 991.98px) {
+    .hero {
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+    .hero-content {
+        text-align: center;
+    }
+    .hero-btns {
+        justify-content: center;
+    }
+    .hero-image {
+        margin: 35px auto 0;
+        max-width: 430px;
+    }
+}
+@media (max-width: 575.98px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+    .hero-btns {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .hero-btns a {
+        width: 100%;
+        text-align: center;
+    }
+    .hero-image {
+        max-width: 330px;
+        padding: 14px;
+    }
+    .service-media {
+        margin: -40px -30px 22px;
+        height: 155px;
+    }
+    .feedback-highlight {
+        padding: 28px 24px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    body {
+        padding-top: 0;
+    }
+}
